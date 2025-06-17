@@ -40,11 +40,3 @@ A saída do script mostrará o "tempo de CPU" acumulado por cada usuário ao lon
 * **Equidade:** Mesmo que inicialmente um usuário possa receber mais tempo, o algoritmo ajustará as próximas alocações para favorecer os usuários que estão "atrasados" em sua fatia justa.
 * **Proporcionalidade (com pesos):** Se forem definidos pesos diferentes para os usuários, o usuário com maior peso tenderá a acumular uma fatia maior do tempo total de CPU, mas de forma gradual e justa em relação aos outros. Por exemplo, um usuário com peso 2 terá, ao final, aproximadamente o dobro de tempo de CPU de um usuário com peso 1.
 * **Balanceamento:** A distribuição final do "tempo de CPU" reflete a intenção do Fair Share de balancear o uso entre os usuários, evitando a monopolização de recursos.
-
-## Referências Utilizadas (com links)
-
-* **Conceito de Fair Share Scheduling:**
-    * Artigo sobre Agendamento Justo em Sistemas Operacionais: [Link para um artigo de Sistemas Operacionais ou livro online sobre escalonamento. Ex: um capítulo de "Operating System Concepts" de Silberschatz et al.](https://www.google.com/search?q=fair+share+scheduling+operating+systems+concepts)
-    * Documentação do Slurm (exemplo de sistema que usa Fair Share): [https://slurm.schedmd.com/fair_tree.html](https://slurm.schedmd.com/fair_tree.html)
-* **Implementações e Conceitos Relacionados:**
-    * Artigos acadêmicos sobre alocação de recursos em sistemas distribuídos.
